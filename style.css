@@ -1,0 +1,138 @@
+/* ===== Global Theme ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Container ===== */
+.container {
+  width: 85%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* ===== Title ===== */
+h1 {
+  color: #00ffcc;
+  font-size: 32px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(0,255,204,0.3);
+}
+
+/* ===== Form Section ===== */
+.form {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 0 15px rgba(0,255,204,0.1);
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 12px;
+  margin: 8px;
+  width: 200px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #2b2b2b;
+  color: white;
+  transition: 0.3s;
+}
+
+input:focus {
+  background: #3a3a3a;
+  box-shadow: 0 0 8px #00ffcc;
+}
+
+/* ===== Add Button ===== */
+button {
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #00ffcc, #0077ff);
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,255,204,0.4);
+}
+
+/* ===== Search Box ===== */
+#search {
+  margin-top: 15px;
+  width: 50%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1e1e1e;
+  color: white;
+}
+
+/* ===== Table Styling ===== */
+table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+th {
+  background: linear-gradient(135deg, #0077ff, #00ffcc);
+  color: black;
+  padding: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+td {
+  padding: 14px;
+  border-bottom: 1px solid #333;
+}
+
+/* Hover effect on rows */
+tr:hover {
+  background: #2a2a2a;
+  transition: 0.3s;
+}
+
+/* ===== Action Buttons ===== */
+.action-btn {
+  margin: 0 5px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit {
+  background: #ffb300;
+  color: black;
+}
+
+.delete {
+  background: #ff3b3b;
+  color: white;
+}
+
+.edit:hover {
+  box-shadow: 0 0 10px #ffb300;
+}
+
+.delete:hover {
+  box-shadow: 0 0 10px #ff3b3b
+}
